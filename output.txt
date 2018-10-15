@@ -1,0 +1,7 @@
+1.  32  asf  12  M  32  F
+2.  1234  DSAD  34  F  32  F
+
+Average age: 9
+Average score: 12.8
+Male count: 1
+Female count: 1
