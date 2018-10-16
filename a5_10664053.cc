@@ -20,9 +20,9 @@ int main()
 		char grade;
 	};
 
-	student students[2];
+	student students[5];
 
-	for(int i = 0; i <= 1; i++)
+	for(int i = 0; i <= 4; i++)
 	{
 		cout << "Enter student's id number: ";
 		cin >> students[i].idNumber;
@@ -75,7 +75,7 @@ int main()
 	// write records to file
 	fstream file;
 	file.open("output.txt", ios::out);
-	for(int i = 0; i <= 1; i++)
+	for(int i = 0; i <= 4; i++)
 	{
 		file << i+1 << ".  ";
 		file << students[i].idNumber << "  ";
